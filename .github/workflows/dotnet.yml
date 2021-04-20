@@ -20,4 +20,4 @@ jobs:
     - name: Build
       run:  dotnet build ConvertArabicNumber/ConvertArabicNumber.sln --configuration Release
     - name: Test
-      run: dotnet test ConvertArabicNumber/ConvertArabicNumber.sln --no-build --verbosity normal
+      run:  dotnet test .\ConvertArabicNumber\ConvertArabicNumber.sln --no-build --verbosity normal
